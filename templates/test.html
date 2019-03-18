@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sush_Search</title>
+</head>
+<body style="background-color:#3A8F7F33;">
+
+<h1 style="text-align:center;font-family:tahoma;font-size:450%;color:#579159;">Search</h1>
+
+
+<form  method="post" >
+{%csrf_token%}
+{%load split%}
+<div align="center" >
+<input type="search" id="myname" type="text" name="firstname" style="font-size: 34pt;border-radius: 18px;" ><br/><br><br/><br>
+<input type="submit" value="Submit" style="width: 20%; height: 40px;color:#FBFCFC;background-color:#579159;font-weight: bold;font-size: 20pt;border-radius: 8px;border-color:#336633;" ><br/>
+
+<br><br/>
+<font size="5" face="tahoma" color="#1D8348" >
+<table>
+{% if result.itertuples is None%}
+<p>No Match Found!</p>
+
+{% else %}
+	{% for  b in result.itertuples %}
+        <tr >{{ b.title }}    -   {{b.author}} <br><br><br/><br> 
+		
+		{% with b.review|split:" " as words %}
+			{% for word in words %}
+				{% if word|lower == searchWord|lower%}
+					<span style = "font-weight:bold;"> {{word}} </span>
+				{% else %}
+					<span> {{word}} </span>
+				{% endif %}
+			{% endfor %}
+		{% endwith %}
+		</tr><br><br/><br>
+		***<br><br/><br>
+		
+{% endfor %} 	
+{% endif %}
+</table></font>
+<!--{{result}}-->
+ <br />
+<br>
+</div>
+</body>
+</html>
