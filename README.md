@@ -32,6 +32,12 @@ Wrapped it around with Django and hosted it on PythonAnywhere.
 The link: http://sushmitaravip.pythonanywhere.com/Search
 
 
+### TF-IDF Calculation
+![TF-IDF](/Snapshots/tfidf.png)
+
+### Cosine Similarity 
+![Cosine Similarity](/Snapshots/cosine_similariy.png)
+
 ### References:
 https://www.geeksforgeeks.org/counting-the-frequencies-in-a-list-using-dictionary-in-python/
 https://www.sharpsightlabs.com/blog/numpy-sum/
