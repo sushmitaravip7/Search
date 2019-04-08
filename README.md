@@ -11,7 +11,7 @@ to the topic that was searched for.
 
 Processing the data by removing punctuation and symbols, stop words and tokenizing them and adding them in an index.
 
-![Tokenizing](https://raw.githubusercontent.com/sushmitaravip7/Search/blob/master/Snapshots/implementation_1.JPG)
+![Tokenizing](../Snapshots/implementation_1.png)
 
 #### Calculate the tf and idf and tfidf.
 
