@@ -38,6 +38,11 @@ The link: http://sushmitaravip.pythonanywhere.com/Search
 ### Cosine Similarity 
 ![Cosine Similarity](/Snapshots/cosine_similarity.png)
 
+### Query Search Snapshots
+![Result_1](/Snapshots/Result_Snippet_1.JPG)
+![Result_2](/Snapshots/Result_Snippet_2.JPG)
+![Result_3](/Snapshots/Result_Snippet_3.JPG)
+![Result_4](/Snapshots/Result_Snippet_4.JPG)
 ### References:
 https://www.geeksforgeeks.org/counting-the-frequencies-in-a-list-using-dictionary-in-python/
 https://www.sharpsightlabs.com/blog/numpy-sum/
