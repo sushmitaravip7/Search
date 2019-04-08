@@ -7,6 +7,8 @@ I have used Goodreads dataset for this search engine from Kaggle.com.
 The Search engine searches for reviews that relate to the keywords or the query the user inputs and then puts the results found in the order of relevance 
 to the topic that was searched for.
 
+![Tokenizing](/Snapshots/intro.jpg)
+
 ### Implementation
 
 Processing the data by removing punctuation and symbols, stop words and tokenizing them and adding them in an index.
@@ -15,15 +17,15 @@ Processing the data by removing punctuation and symbols, stop words and tokenizi
 
 #### Calculate the tf and idf and tfidf.
 
-![TFIDF](https://github.com/sushmitaravip7/Search/blob/master/Snapshots/implementation_2.JPG)
+![TFIDF](/Snapshots/implementation_2.png)
 
 #### Calculate the Cosine similarity between the query and the tfidf.
 
-![Cosine Similarity](https://github.com/sushmitaravip7/Search/blob/master/Snapshots/implementation_3.JPG)
+![Cosine Similarity](/Snapshots/implementation_3.png)
 
 #### Rank the documents
 
-![Ranking](https://github.com/sushmitaravip7/Search/blob/master/Snapshots/implementation_4.JPG)
+![Ranking](/Snapshots/implementation_4.png)
 
 
 Wrapped it around with Django and hosted it on PythonAnywhere. 
