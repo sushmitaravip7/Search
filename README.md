@@ -56,3 +56,4 @@ https://github.com/williamscott701/Information-Retrieval/blob/master/2.%20TF-IDF
 https://www.saltycrane.com/blog/2007/10/using-pythons-finditer-to-highlight/
 https://stackoverflow.com/questions/50573053/similarity-between-2-columns-of-a-dataframe
 https://docs.djangoproject.com/en/2.1/ref/templates/builtins/
+https://stackoverflow.com/questions/51651942/calculate-tf-idf-scores-in-pandas
