@@ -36,7 +36,7 @@ The link: http://sushmitaravip.pythonanywhere.com/Search
 ![TF-IDF](/Snapshots/tfidf.png)
 
 ### Cosine Similarity 
-![Cosine Similarity](/Snapshots/cosine_similariy.png)
+![Cosine Similarity](/Snapshots/cosine_similarity.png)
 
 ### References:
 https://www.geeksforgeeks.org/counting-the-frequencies-in-a-list-using-dictionary-in-python/
