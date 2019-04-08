@@ -19,6 +19,8 @@ Processing the data by removing punctuation and symbols, stop words and tokenizi
 
 ![TFIDF](/Snapshots/implementation_2.png)
 
+![TFIDF](/Snapshots/implementation_5.png)
+
 #### Calculate the Cosine similarity between the query and the tfidf.
 
 ![Cosine Similarity](/Snapshots/implementation_3.png)
