@@ -7,7 +7,7 @@ I have used Goodreads dataset for this search engine from Kaggle.com.
 The Search engine searches for reviews that relate to the keywords or the query the user inputs and then puts the results found in the order of relevance 
 to the topic that was searched for.
 
-![Tokenizing](/Snapshots/intro.jpg)
+![Introduction](/Snapshots/intro_pic.png)
 
 ### Implementation
 
